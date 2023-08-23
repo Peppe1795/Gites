@@ -1,0 +1,7 @@
+package Giuseppe.gestione_dispositivi.Exception;
+
+public class UnauthorizedException extends RuntimeException {
+	public UnauthorizedException(String message) {
+		super(message);
+	}
+}
